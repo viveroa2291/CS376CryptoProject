@@ -25,7 +25,6 @@ public class Message
     }
     public static void clean(String[] message) // This makes all of the strings in the array lowercase and alphabetical.
     {
-        String newMessage = "";
         char emptyC = '2';
         for(int i = 0; i < message.length; i++)
         {
